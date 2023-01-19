@@ -1,5 +1,8 @@
-
+import NavBar from "../components/NavBar/NavBar"
 
 export default function SplashPage(){
-    return(<h1>Hello World</h1>)
+    return(
+    <div>
+        <NavBar />
+    </div>)
 }
