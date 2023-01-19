@@ -1,8 +1,9 @@
 :root {
-
+    --text-gray: #C4C4C4;
 }
 
 
 body {
     background-color: #10101a;
+    margin: 0;
 }
