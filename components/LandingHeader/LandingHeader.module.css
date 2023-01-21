@@ -1,0 +1,14 @@
+.Header_Text{
+    color: white;
+    margin-top: 15rem;
+    width: 50%;
+    max-width: 800px;
+    padding: 0px 20px;
+    font-family: var(--Mark-Font);
+}
+
+.Header_Text > div{
+    font-size: 35px;
+    font-family: var(--Mark-Font);
+    font-weight: 800;
+}
