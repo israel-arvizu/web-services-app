@@ -8,8 +8,36 @@
 
 .Header_Text > div{
     width: 100%;
-    max-width: 600px;
-    font-size: 30px;
+    font-size: 45px;
     font-family: var(--Mark-Font);
     font-weight: 800;
+}
+
+.Header_Text > div > h1{
+    font-weight: 800;
+    line-height: 80px;
+}
+
+.Header_Text > div> h1 > span{
+    color: transparent;
+    background-image: linear-gradient(to right, #0cd1df, #7701ba, #168bfd);
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: animate 10s linear infinite;
+    background-size: 800%;
+}
+
+@keyframes animate{
+    0%
+    {
+        background-position: 0% 100%
+    }
+    50%
+    {
+        background-position: 100% 0%;
+    }
+    100%
+    {
+        background-position: 0% 100%;
+    }
 }
