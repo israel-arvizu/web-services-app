@@ -41,3 +41,15 @@
         background-position: 0% 100%;
     }
 }
+
+.Header_Text > div > a{
+    font-family: var(--DDIN-COND);
+    font-size: 1.3rem;
+    color: var(--text-gray);
+    letter-spacing: .19em;
+    border-bottom: 1px solid var(--text-gray);
+}
+
+.Header_Text > div > a:hover{
+    cursor: pointer;
+}

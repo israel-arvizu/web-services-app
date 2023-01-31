@@ -1,0 +1,6 @@
+.splash_wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: var(--DDIN-COND)
+}

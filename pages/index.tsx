@@ -1,14 +1,13 @@
-import NavBar from "../components/NavBar/NavBar"
-import LandingText from "../components/LandingHeader"
+import LandingScreen from "../components/LandingScreen"
+import ServicesSection from "../components/ServicesSection"
 
 export default function SplashPage(){
     return(
         <>
-            <div>
-                <div className="nav-bar-wrapper">
-                    <NavBar />
-                    <LandingText />
-                </div>
+            <div className="page-wrapper">
+                <LandingScreen />
+                <ServicesSection />
             </div>
-        </>)
+        </>
+        )
 }

@@ -1,0 +1,12 @@
+.services_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services_wrapper > h1{
+    font-size: 4em;
+    font-family: var(--Mark-Font);
+    color: blueviolet;
+}
