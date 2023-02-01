@@ -1,6 +1,7 @@
 .services_wrapper{
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -9,4 +10,26 @@
     font-size: 4em;
     font-family: var(--Mark-Font);
     color: blueviolet;
+}
+
+.row{
+    width: 80%;
+    max-width: 800px;
+}
+
+.row:after{
+    display: table;
+    clear: both;
+}
+
+.column{
+    float: left;
+    width: 24%;
+    height: 500px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid gray;
 }
