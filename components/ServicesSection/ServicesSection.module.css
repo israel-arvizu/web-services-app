@@ -14,7 +14,10 @@
 
 .row{
     width: 80%;
-    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: var(--Mark-Font);
 }
 
 .row:after{
@@ -24,12 +27,59 @@
 
 .column{
     float: left;
-    width: 24%;
+    width: 250px;
     height: 500px;
-    background-color: antiquewhite;
+    background-color: #bdbdf83d;
     display: flex;
     flex-direction: column;
     align-items: center;
 
+
     border: 1px solid gray;
+    padding: 0px 10px;
+}
+
+.column > div{
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2e5ff;
+    border-radius: 100%;
+    margin-top: 10px;
+    color: rgb(132, 132, 206);
+}
+.column > h3{
+    font-size: 1.5rem;
+    margin: 15px 0px 5px 0px;
+    color: white;
+}
+
+.column > p{
+    text-align: center;
+    color: var(--text-gray);
+}
+
+.column > ul{
+   list-style: none;
+   text-align: center;
+   padding: 0px;
+}
+
+.column > ul > li{
+    padding: 10px 0px;
+}
+
+.column > ul > li:first-child{
+    border-top: 1px solid var(--text-gray);
+}
+
+.column > ul > li:nth-child(2){
+    border-top: 1px solid var(--text-gray);
+    border-bottom: 1px solid var(--text-gray);
+}
+
+.column > ul > li:last-child{
+    border-bottom: 1px solid var(--text-gray);
 }
