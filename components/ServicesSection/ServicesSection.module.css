@@ -18,6 +18,7 @@
     flex-direction: row;
     justify-content: center;
     font-family: var(--Mark-Font);
+
 }
 
 .row:after{
@@ -29,14 +30,29 @@
     float: left;
     width: 250px;
     height: 500px;
-    background-color: #bdbdf83d;
+    /* background-color: transparent; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(180deg,rgba(35,37,49,.5),rgba(15,15,24,.5));
+    backdrop-filter: blur(54px);
+    border-top: 0.2rem solid #20222e;
+    border-bottom: 0.2rem solid #20222e;
+/*
+    border: 1px solid gray; */
+    padding: 20px 10px;
+}
 
+.column:first-child{
+    border-left: 0.2rem solid #20222e;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
 
-    border: 1px solid gray;
-    padding: 0px 10px;
+.column:last-child{
+    border-right: 0.2rem solid #20222e;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .column > div{
@@ -59,6 +75,7 @@
 .column > p{
     text-align: center;
     color: var(--text-gray);
+    height: 40px;
 }
 
 .column > ul{
@@ -69,17 +86,23 @@
 
 .column > ul > li{
     padding: 10px 0px;
+    color: var(--text-gray);
 }
 
 .column > ul > li:first-child{
-    border-top: 1px solid var(--text-gray);
+    border-top: 1px solid rgb(102, 100, 100, 0.4);
 }
 
 .column > ul > li:nth-child(2){
-    border-top: 1px solid var(--text-gray);
-    border-bottom: 1px solid var(--text-gray);
+    border-top: 1px solid rgb(102, 100, 100, 0.4);
+    border-bottom: 1px solid rgb(102, 100, 100,0.4);
 }
 
 .column > ul > li:last-child{
-    border-bottom: 1px solid var(--text-gray);
+    border-bottom: 1px solid rgb(102, 100, 100, 0.4);
+}
+
+.column > h2{
+    color: white;
+    font-size: 1.8rem;
 }
