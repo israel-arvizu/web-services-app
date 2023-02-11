@@ -1,0 +1,25 @@
+.footer_container{
+    background-color: ;
+    border-top: 1px solid var(--text-dark-gray);
+    height: fit-content;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.footer_left_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer_left_section > h2{
+    font-family: var(--DDIN-COND);
+    margin: 0px;
+    color: var(--white);
+}
+
+.footer_right_section{
+
+}
