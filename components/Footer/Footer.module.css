@@ -5,7 +5,10 @@
     min-height: 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 10px 30px;
+    color: var(--white);
+    font-family: var(--DDIN-COND);
 }
 
 .footer_left_section{
@@ -18,6 +21,14 @@
     font-family: var(--DDIN-COND);
     margin: 0px;
     color: var(--white);
+}
+
+.footer_middle_section > a{
+    margin: 10px;
+}
+
+.footer_middle_section > a > i{
+    color: white;
 }
 
 .footer_right_section{
