@@ -1,5 +1,4 @@
 .footer_container{
-    background-color: ;
     border-top: 1px solid var(--text-dark-gray);
     height: fit-content;
     min-height: 150px;
@@ -29,8 +28,4 @@
 
 .footer_middle_section > a > i{
     color: white;
-}
-
-.footer_right_section{
-
 }
